@@ -1,0 +1,51 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Environment Variables
+.env
+.venv
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Backup files
+*.bak
+
+# Logs
+logs/
+*.log
+
+# Sensitive files
+secrets.json
