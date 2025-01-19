@@ -42,7 +42,6 @@ python manage.py runserver
 
 ## API Documentation
 
-API documentation is available at `/swagger/` or `/redoc/` when the server is running.
 
 # Gas Utility Service Request System - API Documentation
 
@@ -242,17 +241,8 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...
 }
 ```
 
-## 📋 Supported Service Request Types
-- `gas_leak_inspection`
-- `new_connection`
-- `cylinder_replacement`
-- `meter_reading`
-- `connection_transfer`
 
-## 🔄 Request Status Workflow
-```
-pending → in_progress → under_review → resolved
-```
+
 
 ## 🛡️ User Profile Management
 
@@ -275,10 +265,6 @@ pending → in_progress → under_review → resolved
 }
 ```
 
-## 📞 Customer Support
-- Helpline: 1800-GAS-HELP
-- Email: support@gasutility.in
-- Support Hours: 8 AM - 8 PM
 
 ## 🚀 Quick Setup
 1. Clone repository
